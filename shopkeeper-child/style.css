@@ -1,0 +1,155 @@
+/*
+Theme Name: Shopkeeper Child
+Theme URI: http://shopkeeper.getbowtied.com/
+Description: This is a child theme for Shopkeeper.
+Author: Get Bowtied
+Author URI: http: //www.getbowtied.com/
+Template: shopkeeper
+Version: 1.0
+*/
+
+@import url("../shopkeeper/style.css");
+
+/****************************************************************/
+/*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
+/****************************************************************/
+
+
+.wpt_product_table_wrapper .wpt_quantity ,
+.wpt_product_table_wrapper .wpt_action ,
+.wpt_product_table_wrapper .quantity,
+.wpt_product_table_wrapper .action {
+display:none;
+}
+
+.vc_btn3.vc_btn3-color-grey.vc_btn3-style-modern {
+    color: #d2300d !important;
+    width: 80% !important;
+    right: 18%;
+    top: -2px;
+    font-size: 18px !important;
+}
+@media screen and (max-width: 1225px) {
+.vc_btn3.vc_btn3-color-grey.vc_btn3-style-modern {
+    right: 18%;
+    top: -2px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+.vc_btn3.vc_btn3-color-grey.vc_btn3-style-modern {
+    right: 0;
+}
+}
+
+@media screen and (max-width: 768px) {
+.vc_btn3.vc_btn3-color-grey.vc_btn3-style-modern {
+     width: 100% !important;
+    right: 0;
+    top: 0;
+}
+ }
+
+.spk-icon-heart ,
+.spk-icon-cart-shopkeeper,
+.spk-icon-user-account ,
+.spk-icon-search {
+    color: #8a220e ;
+}
+
+.sticky .spk-icon-heart ,
+.sticky .spk-icon-cart-shopkeeper,
+.sticky .spk-icon-user-account ,
+.sticky .spk-icon-search {
+    color: #fff !important;
+}
+
+#shopkeeper-menu-item-154 a {
+     border-bottom: 2px solid #b99100;
+}
+.sticky #shopkeeper-menu-item-154 a {
+    padding-bottom: 17px;
+    border-bottom: 7px solid #b99100;
+}
+
+.site-top-message{
+    font-size: 15px !important;
+    font-weight: bold !important;
+font-family: sans-serif !important;
+
+}
+.shortcode_banner_simple_height banner_with_img {
+    background: rgba(42, 43, 52, 0.4);
+}
+
+@media only screen and (max-width: 64em){
+.spk-icon-heart ,
+.spk-icon-cart-shopkeeper,
+.spk-icon-user-account ,
+.spk-icon-search {
+    color: #fff !important;
+}
+}
+
+.shortcode_banner_simple_height_inner:before {
+  background: rgba(0, 0, 0, 0.3); }
+
+.shortcode_banner_simple_height_inner:hover:before {
+  background: rgba(0, 0, 0, 0.5); }
+
+#customer_details {
+   margin-top: 0px;
+}
+.checkout_login {margin-top: -30px; }
+.woocommerce-checkout .col2-set .col-2 {
+    margin-top: 0px;
+}
+
+
+
+body.gbt_custom_notif .woocommerce-message,
+body.gbt_custom_notif .woocommerce-error,
+body.gbt_custom_notif .woocommerce-info {
+ 
+  -webkit-animation: slide-in, slide-out;
+  animation: slide-in, slide-out;
+  -webkit-animation-duration: 1.5s, 1.5s;
+  animation-duration: 1.5s, 1.5s;
+  -webkit-animation-delay: .5s, 9.5s;
+  animation-delay: .5s, 9.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+body.gbt_custom_notif .woocommerce-message > li ,
+body.gbt_custom_notif .woocommerce-error > li ,
+body.gbt_custom_notif .woocommerce-info > li {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    padding-left: 100px !important;
+    opacity: 0;
+    -webkit-animation: opacity_text_in, opacity_text_out;
+    animation: opacity_text_in, opacity_text_out;
+    -webkit-animation-delay: 1.25s, 9.65s;
+    animation-delay: 1.25s, 9.65s;
+    -webkit-animation-duration: .5s, .5s;
+    animation-duration: .5s, .5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; 
+}
+
+#site-footer {
+    background: #042368;
+}
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
